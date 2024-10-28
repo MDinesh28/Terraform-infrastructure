@@ -139,7 +139,7 @@ resource "aws_route_table_association" "b" {
 
 #Create WEB-SERVER-1 Instance
 resource "aws_instance" "webserver1" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-04e81358dc84d661d"
   instance_type          = "t2.micro"
   availability_zone      = "ap-south-1a"
   key_name               = "KeyName"
@@ -154,7 +154,7 @@ resource "aws_instance" "webserver1" {
 
 #Create WEB-SERVER-2 Instance
 resource "aws_instance" "webserver2" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-04e81358dc84d661d"
   instance_type          = "t2.micro"
   availability_zone      = "ap-south-1b"
   key_name               = "KeyName"
@@ -169,7 +169,7 @@ resource "aws_instance" "webserver2" {
 
 #Create APP SERVER-1 EC2 Instance
 resource "aws_instance" "appserver1" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-04e81358dc84d661d"
   instance_type          = "t2.micro"
   availability_zone      = "ap-south-1a"
   key_name               = "KeyName"
@@ -182,7 +182,7 @@ resource "aws_instance" "appserver1" {
 
 #Create APP SERVER-2 EC2 Instance
 resource "aws_instance" "appserver2" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-04e81358dc84d661d"
   instance_type          = "t2.micro"
   availability_zone      = "ap-south-1b"
   key_name               = "KeyName"
