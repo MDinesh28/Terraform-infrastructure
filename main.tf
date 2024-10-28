@@ -9,7 +9,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "newterrastate01"
+    bucket = "my-onebuck01"
     key    = "terraform.tfstate"
     region = "ap-south-1"
   }
